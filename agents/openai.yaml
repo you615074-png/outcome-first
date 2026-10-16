@@ -1,0 +1,6 @@
+interface:
+  display_name: "以结果为导向的 AI 协作"
+  short_description: "复杂任务先明确用途，按需改进方法，用相称的验证交付可靠结果"
+  default_prompt: "请用 $outcome-first 帮我推进这项任务：理解实际目的，必要时改进做法，并说明验证结果与不确定性。"
+policy:
+  allow_implicit_invocation: true
